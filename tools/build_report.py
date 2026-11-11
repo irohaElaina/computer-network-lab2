@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """生成实验2 报告：每题直接回答，不展开无关内容。"""
 import os, datetime
 from docx import Document
@@ -13,7 +13,7 @@ OUT = os.path.join(BASE, "report")
 os.makedirs(OUT, exist_ok=True)
 DOCX = os.path.join(OUT, "251006115郭久铭-lab2.docx")
 
-GITHUB = "https://github.com/<用户名>/computer-network-lab2"
+GITHUB = "https://github.com/irohaElaina/computer-network-lab2"
 
 doc = Document()
 sec = doc.sections[0]
@@ -295,3 +295,4 @@ cp.created = datetime.datetime(2026, 11, 11, 20, 30, 0)
 cp.modified = datetime.datetime(2026, 11, 11, 21, 0, 0)
 doc.save(DOCX)
 print('saved', DOCX, 'tables', len(doc.tables))
+
