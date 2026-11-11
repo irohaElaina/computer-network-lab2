@@ -1,4 +1,4 @@
-# 计算机网络实验2 —— HTTP 客户端与 TCP/UDP 协议分析
+﻿# 计算机网络实验2 —— HTTP 客户端与 TCP/UDP 协议分析
 
 学号：251006115　姓名：郭久铭　班级：网工25
 
@@ -13,6 +13,8 @@
 | `code/webget.py` | 手写 HTTP/1.1 客户端（Part D，T1–T5） |
 | `report/` | Word 报告 |
 | `pcap/` | 抓包文件（251006115郭久铭-lab2.pcapng） |
+
+仓库地址：https://github.com/irohaElaina/computer-network-lab2
 
 ## 运行
 
@@ -40,3 +42,4 @@ python code/webget.py www.bjfu.edu.cn /index.html 80
 ## 环境
 
 Python 3.12.10（Windows 11），仅使用标准库 `socket`。
+

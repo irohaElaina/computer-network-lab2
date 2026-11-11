@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """webget.py —— 手写 HTTP/1.1 客户端（只允许 Python 标准库 socket）
 
@@ -21,7 +21,7 @@
   T4  打印 recv 的调用次数与每次字节数，用来解释“响应不是一次性到齐的”。
   T5  与抓包对照（见报告）。
 
-GitHub: https://github.com/<你的用户名>/<仓库名>    # 建库后替换这里
+GitHub: https://github.com/irohaElaina/computer-network-lab2    # 建库后替换这里
 """
 
 import re
@@ -197,3 +197,5 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+

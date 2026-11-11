@@ -13,3 +13,7 @@ __pycache__/
 # 抓包临时文件
 pcap/*.etl
 pcap/*.pcapng.tmp
+
+pcap/cap.*
+pcap/*.etl
+pcap/test*
