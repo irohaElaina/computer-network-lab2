@@ -1,0 +1,15 @@
+# 运行产物
+out/
+*.log
+
+# webget 下载的 body
+code/body_*
+body_*
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 抓包临时文件
+pcap/*.etl
+pcap/*.pcapng.tmp
