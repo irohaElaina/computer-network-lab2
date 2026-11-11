@@ -17,3 +17,6 @@ pcap/*.pcapng.tmp
 pcap/cap.*
 pcap/*.etl
 pcap/test*
+
+submit/
+
